@@ -14,7 +14,7 @@ public class Customer {
         this.carNumberPlate = carNumberPlate;
         this.phoneNumber = phoneNumber;
         this.password = password;
-        this.washCardBalance= washCardBalance;
+        this.washCardBalance = washCardBalance;
     }
 
     public Customer (String name, String carNumberPlate, String phoneNumber, int password, double washCardBalance, boolean admin) {
