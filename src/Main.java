@@ -64,15 +64,22 @@ public class Main {
     public static void showLoginScreen() {
         System.out.println("==== Login ====");
         
+        while (true) {
+            
+            System.out.print("Username: ");
+            scanner.nextLine();
+            System.out.print("Password: ");
+            scanner.nextInt();
+            
+            showUserScreen();    // success
         
+        } else {
+            
+            System.out.println("Try again." )
+            
+            showLoginScreen();    // failed
+   
         
-        
-        // TODO:
-        // username:  ...
-        // password: ...
-
-        // fail, show loginScreenAgain
-        // success, showUserScreen();
     }
 
     /** Print Registration screen */
