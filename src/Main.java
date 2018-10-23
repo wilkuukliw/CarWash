@@ -22,7 +22,7 @@ public class Main {
 
     /** Method that populates program's ArrayList with dummy data */
     private static void populateData() {
-        customers.add(new Customer("Michael", "MC6969", "+45 231",1212, 100));
+        customers.add(new Customer("Michael", "MC6969", "+45 231",1212, 250));   // balance caannot be less than 200
         customers.add(new Customer("Jakub", "JA9991", "+45 123",0000, 600));
         customers.add(new Customer("Sam", "SM7771", "+45 783", 9999, 2000, true));
         customers.add(new Customer("Anna", "AA2211", "+45 223", 9632, 1200, true));
@@ -63,6 +63,10 @@ public class Main {
     /** Print Login screen  */
     public static void showLoginScreen() {
         System.out.println("==== Login ====");
+        
+        
+        
+        
         // TODO:
         // username:  ...
         // password: ...
